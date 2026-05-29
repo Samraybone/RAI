@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>RAI — sector landing references (staging)</title>
+<style>
+  :root { --ink:#0a1a4a; --accent:#2647F0; --muted:#5a6a8c; --bg:#fafbff; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+         background: var(--bg); color: var(--ink); margin:0; padding: 3rem 1.25rem; line-height: 1.5; }
+  main { max-width: 640px; margin: 0 auto; }
+  h1 { margin: 0 0 .25rem; font-size: 1.75rem; letter-spacing: -0.01em; }
+  .tag { color: var(--muted); font-size: .95rem; margin-bottom: 2rem; }
+  ul.sectors { list-style: none; padding: 0; margin: 0; display: grid; gap: .5rem; }
+  ul.sectors li a {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 1rem 1.125rem; background: white;
+    border: 1px solid #e7eaf3; border-radius: 12px;
+    text-decoration: none; color: var(--ink); font-weight: 500;
+    transition: border-color .15s ease, transform .15s ease;
+  }
+  ul.sectors li a:hover { border-color: var(--accent); transform: translateY(-1px); }
+  ul.sectors li a::after { content: "→"; color: var(--accent); font-weight: 600; }
+  footer { margin-top: 2.5rem; color: var(--muted); font-size: .85rem; }
+  code { background: #eef1fb; padding: 1px 6px; border-radius: 4px; font-size: .85em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>RAI sector landing references</h1>
+  <p class="tag">Staging — design reference for the team. Not search-indexed.</p>
+  <ul class="sectors">
+    <li><a href="RAI-defence.html">Defence</a></li>
+    <li><a href="RAI-engineering.html">Engineering</a></li>
+    <li><a href="RAI-finance.html">Finance</a></li>
+    <li><a href="RAI-fintech.html">Fintech</a></li>
+    <li><a href="RAI-logistics.html">Logistics</a></li>
+    <li><a href="RAI-manufacturing-v2.html">Manufacturing (v2)</a></li>
+    <li><a href="RAI-technology.html">Technology</a></li>
+  </ul>
+  <footer>samraybone/RAI · GitHub Pages · staging</footer>
+</main>
+</body>
+</html>
